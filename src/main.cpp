@@ -2116,7 +2116,7 @@ int main(int, char**) {
                 "RAIL SIGNAL RUSH",
                 "SIGNAL FORGE",
                 "STRANGELOVE",
-                "SNAKE DUET",
+                "DOUBLE SNAKE",
                 "LONGJUMP DUET"
             }};
 
@@ -2144,7 +2144,7 @@ int main(int, char**) {
                 "3. RAIL SIGNAL RUSH",
                 "4. SIGNAL FORGE",
                 "5. STRANGELOVE",
-                "6. SNAKE DUET",
+                "6. DOUBLE SNAKE",
                 "7. LONGJUMP DUET"
             }};
 
@@ -2682,7 +2682,7 @@ int main(int, char**) {
 
             const int panelX = 80, panelY = 50, panelW = kWindowW - 160, panelH = 120;
             DrawPanel(renderer, panelX, panelY, panelW, panelH, {12, 24, 52}, {120, 214, 255});
-            DrawText(renderer, panelX + 18, panelY + 20, 3, {245, 248, 255}, "SNAKE DUET");
+            DrawText(renderer, panelX + 18, panelY + 20, 3, {245, 248, 255}, "DOUBLE SNAKE");
             DrawText(renderer, panelX + 18, panelY + 58, 2, {255, 232, 118}, "P1 SNAKE: W/A/S/D");
             DrawText(renderer, panelX + 18, panelY + 82, 2, {123, 228, 255}, "P2 SNAKE: ARROWS  SHARED FOOD, SHARED GRID");
 

@@ -99,7 +99,7 @@ Controls:
 - `P1 (Command)`: `A/D` select doctrine slot, `W/S` change doctrine level, `Backspace` clear doctrine plan
 - `P2 (Defense)`: `Left/Right` select lane, `Enter` intercept on beat
 
-### 6) Snake Duet
+### 6) Double Snake
 
 Aim:
 
