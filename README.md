@@ -110,7 +110,7 @@ Controls:
 - `P1 snake`: `W/A/S/D`
 - `P2 snake`: `Arrow keys`
 
-### 7) LongJump Duet
+### 7) JEdward's LongJump
 
 Aim:
 

@@ -87,6 +87,7 @@ const std::unordered_map<char, Glyph> kFont = {
     {'U', {{17,17,17,17,17,17,14}}}, {'V', {{17,17,17,17,10,10,4}}}, {'W', {{17,17,17,21,21,21,10}}},
     {'X', {{17,10,4,4,4,10,17}}}, {'Y', {{17,10,4,4,4,4,4}}}, {'Z', {{31,1,2,4,8,16,31}}},
     {'(', {{4,8,16,16,16,8,4}}}, {')', {{4,2,1,1,1,2,4}}}, {'/', {{1,2,4,8,16,0,0}}},
+    {'\'', {{4,4,2,0,0,0,0}}},
     {'+', {{0,4,4,31,4,4,0}}}, {'?', {{14,17,1,2,4,0,4}}},
 };
 
@@ -2117,7 +2118,7 @@ int main(int, char**) {
                 "SIGNAL FORGE",
                 "STRANGELOVE",
                 "DOUBLE SNAKE",
-                "LONGJUMP DUET"
+                "JEDWARD'S LONGJUMP"
             }};
 
             const int jukeboxX = panelX + 30;
@@ -2145,7 +2146,7 @@ int main(int, char**) {
                 "4. SIGNAL FORGE",
                 "5. STRANGELOVE",
                 "6. DOUBLE SNAKE",
-                "7. LONGJUMP DUET"
+                "7. JEDWARD'S LONGJUMP"
             }};
 
             // Scrollable menu viewport so list always fits as game count grows.
@@ -2353,7 +2354,7 @@ int main(int, char**) {
 
             const int topX = 90, topY = 46, topW = kWindowW - 180, topH = 118;
             DrawPanel(renderer, topX, topY, topW, topH, {14, 24, 46}, {120, 220, 255});
-            DrawText(renderer, topX + 18, topY + 18, 3, {245, 248, 255}, "LONGJUMP DUET");
+            DrawText(renderer, topX + 18, topY + 18, 3, {245, 248, 255}, "JEDWARD'S LONGJUMP");
             DrawText(renderer, topX + 18, topY + 54, 2, {255, 232, 118}, "P1: A/D FEET  W/S ANGLE  SPACE JUMP @ LINE");
             DrawText(renderer, topX + 18, topY + 78, 2, {123, 228, 255}, "P2: LEFT/RIGHT FEET  UP/DOWN ANGLE  ENTER JUMP @ LINE");
 
